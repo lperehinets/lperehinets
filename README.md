@@ -4,7 +4,7 @@
 
 # Hi, I'm Luka Perehinets 👋
 
-### Neural Engineer · BCI Researcher · Deep Learning Practitioner
+### Student @ UC Berkeley · Neuroscience (Computational Neuroscience) · Developing Neural Networks/BCI Projects · Deep Learning Practitioner
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -17,7 +17,7 @@
 
 ## About Me
 
-I'm a neural engineer working at the intersection of **computational neuroscience**, **brain-computer interfaces (BCI)**, and **deep learning**. My work focuses on decoding neural signals — particularly EEG — to build systems that translate brain activity into actionable commands.
+I'm an undergradute student at UC Berkeley studying Neuroscience with a focus in Computational Neuroscience, currently pursuing projects regarding  **computational neuroscience**, **brain-computer interfaces (BCI)**, and **deep learning**. My work focuses on decoding neural signals — particularly EEG — to build systems that translate brain activity into actionable commands.
 
 - **Research interests:** Motor imagery BCIs, neural signal processing, EEGNet and transformer-based decoders, real-time neural decoding
 - **Current focus:** Improving classification robustness across EEG sessions and subjects (transfer learning for BCIs)
@@ -77,9 +77,8 @@ Data Science         █████████████████░░�
 ## Connect
 
 - **GitHub:** [github.com/lperehinets](https://github.com/lperehinets)
-- **LinkedIn:** [linkedin.com/in/YOUR_PROFILE](https://linkedin.com/in/YOUR_PROFILE)
+- **LinkedIn:** [linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/lukaperehients03/)
 - **Email:** lperehinets1@gmail.com
-- **Google Scholar:** [scholar.google.com/YOUR_PROFILE](https://scholar.google.com/YOUR_PROFILE)
 
 ---
 

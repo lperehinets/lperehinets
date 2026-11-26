@@ -1,91 +1,37 @@
-<!-- GitHub Profile README -->
+## Luka Perehinets
 
-<div align="center">
+Neuroscience undergraduate at UC Berkeley (Computational Neuroscience, class of 2027). I work on synaptic imaging analysis in the Isacoff Lab and I am learning voxelwise encoding models of fMRI. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
 
-# Hi, I'm Luka Perehinets 👋
+### What I work on now
 
-### Researcher @ UC Berkeley · Neuroscience (Computational Neuroscience) · Developing Neural Networks/BCI Projects · Deep Learning Practitioner
+**Isacoff Lab, Helen Wills Neuroscience Institute (Feb 2024 to present).** I spent my first year learning Drosophila biology and wet lab work. Since then I have been rebuilding the lab's MATLAB structural matching pipeline. It finds presynaptic active zones in Airyscan super-resolution images of the Drosophila larval neuromuscular junction and registers them to QuaSOR quantal release maps of the same synapses. The old pipeline crashed on almost every new animal. The goal is an automatic tool that handles different genotypes and plugs into any lab study. So far I have added stage-gating checks and traced a ~5,600x Brp intensity discrepancy between pipeline versions. This is in progress, and the code is lab code, so it is not public.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![NumPy](https://img.shields.io/badge/NumPy-1.24+-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
+Other lab work: QuaSOR and SynapGCaMP8f imaging, Complexin knockdown, and CRISPR perturbation of active zone proteins.
 
-</div>
+**Voxelwise encoding models (in progress).** A course project for Prof. Jack Gallant's journal course, comparing CLIP image features, WordNet semantic labels, and motion energy as voxelwise encoding models on the public Shortclips fMRI dataset. I am working through the voxelwise tutorials first. The repo will go public once it has real work in it.
 
----
+Currently working on:
 
-## About Me
+- Getting the structural matching pipeline to run end to end on new genotypes
+- Fitting my first voxelwise encoding model on one Shortclips subject
 
-I'm an undergradute student at UC Berkeley studying Neuroscience with a focus in Computational Neuroscience, currently pursuing projects regarding  **computational neuroscience**, **brain-computer interfaces (BCI)**, and **deep learning**. My work focuses on decoding neural signals — particularly EEG — to build systems that translate brain activity into actionable commands.
+### Selected research
 
-- **Research interests:** Motor imagery BCIs, neural signal processing, EEGNet and transformer-based decoders, real-time neural decoding
-- **Current focus:** Improving classification robustness across EEG sessions and subjects (transfer learning for BCIs)
-- **Tools:** Python · PyTorch · MNE-Python · scikit-learn · SciPy · NumPy · Matplotlib
+- **Synaptic release model.** XGBoost and linear models relating Brp, Unc13A, and RBP levels to spontaneous release across 411 synapses. Unc13A was the strongest predictor. These are in-sample fits, so the result is an association, not a prediction. Poster at WCBSURC 2026.
+- *Molecular Determinants of Synaptic Diversity at the Drosophila Neuromuscular Junction.* Manuscript in preparation, 4th author.
+- Reardon HT et al. *Base exchange inhibitors of SARM1 form mononucleotide adducts and activate SARM1 in vivo.* bioRxiv 2025. 10th of 17 authors. [doi:10.1101/2025.04.22.649875](https://doi.org/10.1101/2025.04.22.649875)
+- Acknowledged in a PNAS 2025 paper.
 
----
+Earlier research: Lundbeck (SARM1 team, San Diego, 2024; histology, Copenhagen, 2023) and the Khodosevich Lab, University of Copenhagen (2021, 2022).
 
-## Featured Projects
+### Earlier things I built
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [neural-nets-from-scratch](https://github.com/lperehinets/neural-nets-from-scratch) | Full neural network: forward/backprop in NumPy only | NumPy, Matplotlib |
-| [eeg-signal-analysis](https://github.com/lperehinets/eeg-signal-analysis) | EEG bandpass filtering, PSD, spectrograms | SciPy, NumPy, Matplotlib |
-| [mental-state-classifier](https://github.com/lperehinets/mental-state-classifier) | ML classifier for Relaxed/Focused/Drowsy/Stressed states | scikit-learn, pandas |
-| [eeg-motor-imagery-bci](https://github.com/lperehinets/eeg-motor-imagery-bci) | EEGNet CNN for motor imagery decoding (PyTorch) | PyTorch, SciPy |
+- **LAYUP (2020).** A pickup basketball app I built in high school in Denmark with two friends: per-game stats, friend rankings, and community tournaments. I built the frontend and designed the layout. It launched on the App Store and got little traction. The code is not public.
+- **[insync-website](https://github.com/lperehinets/insync-website).** The site for INSYNC Running Club, a Berkeley run club I co-founded in Feb 2026 (5K plus a DJ set, about 20 events and 600+ attendees so far). The site was originally built by [tyakut](https://github.com/tyakut). I maintain and publish it now at [insyncrunning.com](https://insyncrunning.com).
 
----
+Outside the lab I run ultras (Lake Chabot 50K, 4th overall, 2026).
 
-## Skills
+### Contact
 
-```
-Signal Processing    ████████████████████░   EEG, bandpass, Welch PSD, spectrograms
-Machine Learning     ███████████████████░░   sklearn, feature engineering, cross-validation
-Deep Learning        ████████████████░░░░░   PyTorch, CNNs, EEGNet, transformers
-Neural Engineering   ████████████████████░   BCI systems, motor imagery, ERD/ERS
-Data Science         █████████████████░░░░   NumPy, pandas, seaborn, Jupyter
-```
-
----
-
-## EEG Frequency Bands
-
-```
-δ Delta  (0.5–4 Hz)  ─── Deep sleep, slow oscillations
-θ Theta  (4–8 Hz)   ─── Memory consolidation, drowsiness
-α Alpha  (8–13 Hz)  ─── Relaxed alertness, mu rhythm (sensorimotor)
-β Beta   (13–30 Hz) ─── Active thinking, motor planning
-γ Gamma  (30–100 Hz)─── High-level cognition, feature binding
-```
-
----
-
-## Recent Activity
-
-<!-- Replace with your actual GitHub stats widget -->
-
-```
-📌  Pinned Repositories
-    ├── eeg-motor-imagery-bci   — EEGNet PyTorch CNN, 4-class motor imagery
-    ├── mental-state-classifier — scikit-learn mental state decoder
-    ├── eeg-signal-analysis     — signal processing & visualisation
-    └── neural-nets-from-scratch — deep learning from first principles
-```
-
----
-
-## Connect
-
-- **GitHub:** [github.com/lperehinets](https://github.com/lperehinets)
-- **LinkedIn:** [linkedin.com/in/YOUR_PROFILE](https://www.linkedin.com/in/lukaperehients03/)
-- **Email:** lperehinets1@gmail.com
-
----
-
-<div align="center">
-
-*"The brain is the most complex organ in the universe — let's decode it."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=lperehinets&color=blue&style=flat)
-
-</div>
+- LinkedIn: [linkedin.com/in/lukaperehinets03](https://www.linkedin.com/in/lukaperehinets03)
+- Email: lperehinets@berkeley.edu

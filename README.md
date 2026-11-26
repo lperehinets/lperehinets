@@ -1,23 +1,21 @@
 ## Luka Perehinets
 
-Neuroscience undergraduate at UC Berkeley (Computational Neuroscience, class of 2027). I work on synaptic imaging analysis in the Isacoff Lab and I am learning voxelwise encoding models of fMRI. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
+Neuroscience undergraduate at UC Berkeley (Computational Neuroscience, class of 2027). I work on synaptic imaging analysis and fMRI encoding models. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
 
 ### What I work on now
 
-**Isacoff Lab, Helen Wills Neuroscience Institute (Feb 2024 to present).** I spent my first year learning Drosophila biology and wet lab work. Since then I have been rebuilding the lab's MATLAB structural matching pipeline. It finds presynaptic active zones in Airyscan super-resolution images of the Drosophila larval neuromuscular junction and registers them to QuaSOR quantal release maps of the same synapses. The old pipeline crashed on almost every new animal. The goal is an automatic tool that handles different genotypes and plugs into any lab study. So far I have added stage-gating checks and traced a ~5,600x Brp intensity discrepancy between pipeline versions. This is in progress, and the code is lab code, so it is not public.
+**Isacoff Lab, Helen Wills Neuroscience Institute (2024 to present).** Synaptic physiology at the Drosophila neuromuscular junction. I build analysis tools for the lab's super-resolution and calcium imaging data.
 
-Other lab work: QuaSOR and SynapGCaMP8f imaging, Complexin knockdown, and CRISPR perturbation of active zone proteins.
-
-**Voxelwise encoding models (in progress).** A course project for Prof. Jack Gallant's journal course, comparing CLIP image features, WordNet semantic labels, and motion energy as voxelwise encoding models on the public Shortclips fMRI dataset. I am working through the voxelwise tutorials first. The repo will go public once it has real work in it.
+**Voxelwise encoding models (in progress).** A course project for Prof. Jack Gallant's journal course, comparing CLIP image features, WordNet semantic labels, and motion energy as voxelwise encoding models on the public Shortclips fMRI dataset. Work in progress: [clip-vs-handcrafted-encoding](https://github.com/lperehinets/clip-vs-handcrafted-encoding).
 
 Currently working on:
 
-- Getting the structural matching pipeline to run end to end on new genotypes
+- Imaging analysis tools for the Isacoff Lab
 - Fitting my first voxelwise encoding model on one Shortclips subject
 
 ### Selected research
 
-- **Synaptic release model.** XGBoost and linear models relating Brp, Unc13A, and RBP levels to spontaneous release across 411 synapses. Unc13A was the strongest predictor. These are in-sample fits, so the result is an association, not a prediction. Poster at WCBSURC 2026.
+- **Molecular predictors of synaptic release.** Machine learning models relating presynaptic protein levels to release. Poster at WCBSURC 2026.
 - *Molecular Determinants of Synaptic Diversity at the Drosophila Neuromuscular Junction.* Manuscript in preparation, 4th author.
 - Reardon HT et al. *Base exchange inhibitors of SARM1 form mononucleotide adducts and activate SARM1 in vivo.* bioRxiv 2025. 10th of 17 authors. [doi:10.1101/2025.04.22.649875](https://doi.org/10.1101/2025.04.22.649875)
 - Acknowledged in a PNAS 2025 paper.

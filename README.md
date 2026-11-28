@@ -1,6 +1,6 @@
 # Luka Perehinets
 
-Neuroscience undergraduate at UC Berkeley (Computational Neuroscience, class of 2027). I run synaptic imaging experiments and build the analysis tools behind them, and I also work on fMRI encoding models. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
+Neuroscience undergraduate at UC Berkeley (Computational Neuroscience). I run synaptic imaging experiments and build the analysis tools behind them, and I also work on fMRI encoding models. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
 
 ## What I work on now
 
@@ -25,7 +25,8 @@ Python (NumPy, SciPy, pandas, statsmodels), MATLAB, calcium imaging, Airyscan an
 
 [insync-website](https://github.com/lperehinets/insync-website). Site for INSYNC Running Club, a Berkeley run club I co-founded. Originally built by tyakut; I maintain it at [insyncrunning.com](https://insyncrunning.com).
 
-Outside the lab I run ultras (Lake Chabot 50K, 4th overall, 2026).
+# Athlete Profile 
+I run ultra marathons, finished 2 50K races this year and training for a 50 Mile race in February!
 
 ## Contact
 

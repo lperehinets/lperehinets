@@ -1,34 +1,31 @@
-## Luka Perehinets
+Luka Perehinets
 
-Neuroscience undergraduate at UC Berkeley (Computational Neuroscience, class of 2027). I work on synaptic imaging analysis and fMRI encoding models. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
+Neuroscience undergraduate at UC Berkeley (Computational Neuroscience, class of 2027). I run synaptic imaging experiments and build the analysis tools behind them, and I also work on fMRI encoding models. Long term, I want to build computational brain-machine interface tools for neurorehabilitation in Ukraine.
 
-### What I work on now
+What I work on now
 
-**Isacoff Lab, Helen Wills Neuroscience Institute (2024 to present).** Synaptic physiology at the Drosophila neuromuscular junction. I build analysis tools for the lab's super-resolution and calcium imaging data.
+Isacoff Lab, Helen Wills Neuroscience Institute (2024 to present). Synaptic physiology at the Drosophila larval neuromuscular junction. I image release at individual synapses with the genetically encoded calcium indicator SynapGCaMP8f and quantify evoked and spontaneous release across hundreds of synapses per sample. I also lead development of an automated structure-function pipeline that matches active zones in Airyscan super-resolution images to release maps of the same synapses, and I consolidated the lab's analysis scripts into a single tested Python tool.
 
-**Voxelwise encoding models (in progress).** A course project for Prof. Jack Gallant's journal course, comparing CLIP image features, WordNet semantic labels, and motion energy as voxelwise encoding models on the public Shortclips fMRI dataset. Work in progress: [clip-vs-handcrafted-encoding](https://github.com/lperehinets/clip-vs-handcrafted-encoding).
+Voxelwise encoding models (in progress). An independent project comparing CLIP image features, WordNet semantic labels and motion energy as voxelwise encoding models on the public Shortclips fMRI dataset. Code: clip-vs-handcrafted-encoding.
 
-Currently working on:
+Selected research
+Molecular predictors of synaptic release. Machine learning models relating presynaptic protein levels to release at the Drosophila NMJ. Poster at WCBSURC 2026.
+Molecular Determinants of Synaptic Diversity at the Drosophila Neuromuscular Junction. Manuscript in preparation, 4th author.
+Reardon HT et al. Base exchange inhibitors of SARM1 form mononucleotide adducts and activate SARM1 in vivo. bioRxiv 2025. doi:10.1101/2025.04.22.649875
+Acknowledged contributor, PNAS 2025.
 
-- Imaging analysis tools for the Isacoff Lab
-- Fitting my first voxelwise encoding model on one Shortclips subject
+Earlier research: Lundbeck (SARM1 team, San Diego, 2024; histology and pathology, Copenhagen, 2023) and the Khodosevich Lab, University of Copenhagen (2021, 2022), where I did immunohistochemistry, tissue sectioning and confocal imaging of mouse brain tissue.
 
-### Selected research
+Tools
 
-- **Molecular predictors of synaptic release.** Machine learning models relating presynaptic protein levels to release. Poster at WCBSURC 2026.
-- *Molecular Determinants of Synaptic Diversity at the Drosophila Neuromuscular Junction.* Manuscript in preparation, 4th author.
-- Reardon HT et al. *Base exchange inhibitors of SARM1 form mononucleotide adducts and activate SARM1 in vivo.* bioRxiv 2025. 10th of 17 authors. [doi:10.1101/2025.04.22.649875](https://doi.org/10.1101/2025.04.22.649875)
-- Acknowledged in a PNAS 2025 paper.
+Python (NumPy, SciPy, pandas, statsmodels), MATLAB, calcium imaging, Airyscan and confocal microscopy, immunohistochemistry, CRISPR validation, qPCR, ELISA.
 
-Earlier research: Lundbeck (SARM1 team, San Diego, 2024; histology, Copenhagen, 2023) and the Khodosevich Lab, University of Copenhagen (2021, 2022).
+Other
 
-### Other
-
-- **[insync-website](https://github.com/lperehinets/insync-website).** Site for INSYNC Running Club, a Berkeley run club I co-founded. Originally built by [tyakut](https://github.com/tyakut); I maintain it at [insyncrunning.com](https://insyncrunning.com).
+insync-website. Site for INSYNC Running Club, a Berkeley run club I co-founded. Originally built by tyakut; I maintain it at insyncrunning.com.
 
 Outside the lab I run ultras (Lake Chabot 50K, 4th overall, 2026).
 
-### Contact
+Contact
 
-- LinkedIn: [linkedin.com/in/lukaperehinets03](https://www.linkedin.com/in/lukaperehinets03)
-- Email: lperehinets@berkeley.edu
+LinkedIn: linkedin.com/in/lukaperehinets03 Email: lperehinets1@gmail.com
